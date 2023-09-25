@@ -73,3 +73,18 @@ for(let i =0; i<=100; i++){
     }
 }
 */
+// Task5  1-500
+for (let i = 2; i <= 500; i++) {
+  var a = i;
+  var say = 0;
+
+  for (let j = 2; j <= a / 2; j++) {
+    if (a % j === 0) {
+      say++;
+      break;
+    }
+  }
+  if (say == 0) {
+    console.log(a);
+  }
+}
