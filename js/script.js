@@ -53,5 +53,23 @@ for(let i = 0; i <=number; i++){
     sum+=i
 }
 console.log(sum)
-
+*/
+/*
+Task4
+Usul1:
+for(let i =0; i<=100; i++){
+    if(i%2 === 0){
+        console.log(`${i} cutdur`)
+    }else{
+        console.log(`${i} tekdir`)
+    }
+}
+Usul2:
+for(let i =0; i<=100; i++){
+    if(i%2){
+        console.log(`${i} tekdir`)
+    }else{
+        console.log(`${i} cutdur`)
+    }
+}
 */
